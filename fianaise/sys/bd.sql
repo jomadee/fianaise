@@ -1,0 +1,11 @@
+CREATE TABLE `ll_fianaise` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`status` ENUM('1','0') NOT NULL DEFAULT '0',
+	`nome` VARCHAR(50) NOT NULL,
+	`email` VARCHAR(100) NULL DEFAULT NULL,
+	`complemento` VARCHAR(100) NULL DEFAULT NULL,
+	`texto` TEXT NOT NULL,
+	PRIMARY KEY (`id`)
+)
+ENGINE=InnoDB
+;

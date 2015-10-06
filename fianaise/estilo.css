@@ -1,0 +1,18 @@
+.depoimento > div{
+	font-size: 1.4em;
+	margin-bottom: 10px;
+	line-height: 130%;
+	}
+	
+	.depoimento > div span{
+		font-weight: 600;
+		display: block;
+		margin-bottom: 3px;
+		}
+		
+		
+	.navigi_list td .fa.bt_ativo{
+		color: #45AB1F;
+	}
+		
+		
